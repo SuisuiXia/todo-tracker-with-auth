@@ -1,0 +1,75 @@
+.app {
+  /* background: url('/background.jpg') no-repeat center center fixed; */
+  background-color: rgb(37, 0, 139);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.slogan {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+  color: #ddd;
+}
+
+.signup,
+.login {
+  background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+input {
+  width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+button:last-of-type {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+}
